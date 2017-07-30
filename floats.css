@@ -8,61 +8,76 @@
 }
 
 body {
+	font-size: 24px;
+  	line-height: 32px;
+  	color: #333;
 }
 
 header {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: black;
-  background: #ccc;
-}
+  	
+  	color: #333;
+  	background: #ccc;
+  }
 
 section {
+	padding: 20px;
+	margin-bottom: 20px;
+	
+
 }
 
 #left {
-	display: inline;
-	background-color: black;
-	color: white;
-
+	float: left;
+	width: 33.3%;
+	color: #fff;
+	background: #666;
+	
+	
 }
 
 #middle {
-	display: inline;
-	background-color: grey;
-	color: white;
+	float: left;
+	width: 33.3%;
+	color: #fff;
+	background: #888;
 	
 }
 
 #right {
-	display: inline;
-	background-color: black;
-	color: white;
-	box-sizing: 
+	float: left;
+	width: 33.3%;
+	color: #fff;
+	background: #666;
 }
 
 #full {
-	clear: both
-	width:100%;
-	overflow: auto;
-	background: #eee;
-	float: left
+	width: 100%;
+  	overflow: auto;
+  	clear: both;
+  	
 	
 }
 
 #division {
-	float: left
+  	padding: 20px;
+  	margin-top: 20px;
+  	background: #6ea3da;
 }
 
 aside {
-	float: left
+  	float: left;
+  	width: 33%;
+  	height: 200px;
+  	padding: 20px;
+  	margin-left: 30px;
+  	background: #fff;
+  	border: 1px solid #eee;
 }
 
 footer {
+	padding: 20px;
+	clear: both;
+	background: #ccc;
 }
 
-.clearfix::after {
-	content:"";
-	display:block;
-	clear: both;
-}
+
